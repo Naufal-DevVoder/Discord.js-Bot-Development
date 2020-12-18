@@ -25,14 +25,14 @@ client.on("ready", () => {
     client.user.setPresence({
         status: "online",
         game: {
-            name: "discord.gg/monarcid || My Owner "Adie (Alhuki)" || Created By NaufaL-Kun",
+            name: "discord.io/camaraderie || My Owner "MENG" || Created By NaufaL-Kun",
             type: "PLAYING"
         }
     }); 
 });
 
 client.on("message", async message => {
-    const prefix = "m.";
+    const prefix = "c.";
 
     if (message.author.bot) return;
     if (!message.guild) return;
@@ -51,4 +51,4 @@ client.on("message", async message => {
         command.run(client, message, args);
 });
 
-client.login(process.env.TOKEN);
+client.login(process.env."NzgyODMyODMxNjYyNzg0NTMy.X8R74w.2FwqQF7K5AjBV9gVOVyey-hFv5s");
