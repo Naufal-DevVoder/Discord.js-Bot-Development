@@ -25,14 +25,14 @@ client.on("ready", () => {
     client.user.setPresence({
         status: "online",
         game: {
-            name: "me getting developed",
-            type: "STREAMING"
+            name: "discord.gg/monarcid || My Owner "Adie (Alhuki)" || Created By NaufaL-Kun",
+            type: "PLAYING"
         }
     }); 
 });
 
 client.on("message", async message => {
-    const prefix = "_";
+    const prefix = "m.";
 
     if (message.author.bot) return;
     if (!message.guild) return;
